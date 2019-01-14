@@ -1,0 +1,19 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="testLogin">
+    <test name="test">
+        <classes>
+            <class name="com.course.cases.AddUserTest"/>
+            <class name="com.course.cases.GetUserInfo"/>
+            <class name="com.course.cases.GetUserListTest"/>
+            <class name="com.course.cases.LoginTest"/>
+            <class name="com.course.cases.UpdateUserTest"/>
+        </classes>
+    </test>
+    <listeners>
+        <listener class-name="com.course.config.ExtentTestNGIReporterListener"/>
+    </listeners>
+
+
+
+
+</suite>
